@@ -1,6 +1,6 @@
 #FPC 2022 Problems Solutions
 run:
-``` PowerShell
+``` sh
 git pull https://github.com/yazan-abualenain/FPC2022SOLVE.git
 python pip install -r requirements.txt
 ```
