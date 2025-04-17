@@ -1,4 +1,4 @@
-#FPC 2022 Problems Solutions
+# FPC 2022 Problems Solutions
 run:
 ``` sh
 git pull https://github.com/yazan-abualenain/FPC2022SOLVE.git
