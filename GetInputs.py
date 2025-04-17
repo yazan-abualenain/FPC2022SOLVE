@@ -17,7 +17,7 @@ def GetInputs(inputData : list):
                 try:
                     StdIn = int(StdIn)
                 except ValueError:
-                    StdIn.trim()
+                    StdIn.strip()
                     if " " in StdIn:
                         innerData = []
                         StdIn = StdIn.split()
@@ -25,7 +25,7 @@ def GetInputs(inputData : list):
                             try:
                                 j = int(j)
                             except ValueError:
-                                j = j.trim()
+                                j = j.strip()
                             finally:
                                 innerData.append(j)
                         StdIn = innerData
@@ -41,7 +41,7 @@ def GetInputs(inputData : list):
                         try:
                             j = int(j)
                         except ValueError:
-                            j = j.trim()
+                            j = j.strip()
                         finally:
                             innerData.append(j)
                     StdIn = innerData
@@ -50,7 +50,7 @@ def GetInputs(inputData : list):
                     try:
                         StdIn = int(StdIn)
                     except ValueError:
-                        StdIn = str(StdIn).trim()
+                        StdIn = str(StdIn).strip()
                     finally:
                         outputData.append(StdIn)
     return tuple(outputData)
